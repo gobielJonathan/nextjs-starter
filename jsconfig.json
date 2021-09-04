@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "esnext",
+      "allowSyntheticDefaultImports": true,
+      "checkJs": false,
+      "paths": {
+        
+      }
+    },
+    "include": [
+      "*/**"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
