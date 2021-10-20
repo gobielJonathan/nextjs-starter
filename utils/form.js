@@ -68,7 +68,7 @@ export const Between = (
   define("Between", (v) => {
     let valid = false;
     if (typeof v == "string") {
-      if (Object.is(NaN, Number(v))) valid = v >= min && v <= max;
+      if (Object.is(NaN, Number(v))) valid = +v >= min && +v <= max;
       else valid = v.length >= min && v.length <= max;
     }
     if (typeof v == "number") valid = v >= min && v <= max;
